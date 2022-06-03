@@ -14,10 +14,7 @@ Keys:
     CTRL-F: Find string in file (ESC to exit search, arrows to navigate)
 
 Kilo does not depend on any library (not even curses). It uses fairly standard
-VT100 (and similar terminals) escape sequences.
-
-Kile uses and would continue to use other Open source code to build upon in its 
-dependency tree.
+VT100 (and similar terminals) escape sequences. Kile uses other libraries to build further.
 
 Kilo project is in alpha stage and was written in just a few hours taking code 
 from antirez's other two projects, load81 and linenoise thus by mechanism of inheritance
