@@ -1,11 +1,11 @@
-Kilo
-===
+Kile is a Programmers Editor 
+============================
 
-Kilo is a small text editor in less than 1K lines of code (counted with cloc).
+Kilo is a small text editor forked from Kilo which is only 1K lines of code (counted with cloc).
 
 A screencast is available here: https://asciinema.org/a/90r2i9bq8po03nazhqtsifksb
 
-Usage: kilo `<filename>`
+Usage: kile `<filename>`
 
 Keys:
 
@@ -13,14 +13,15 @@ Keys:
     CTRL-Q: Quit
     CTRL-F: Find string in file (ESC to exit search, arrows to navigate)
 
-Kilo does not depend on any library (not even curses). It uses fairly standard
-VT100 (and similar terminals) escape sequences. The project is in alpha
-stage and was written in just a few hours taking code from my other two
-projects, load81 and linenoise.
+Kile does not depend on any library (not even curses). It uses fairly standard
+VT100 (and similar terminals) escape sequences. 
 
-People are encouraged to use it as a starting point to write other editors
-or command line interfaces that are more advanced than the usual REPL
-style CLI.
+Kilo project is in alpha stage and was written in just a few hours taking code 
+from my other two projects, load81 and linenoise thus by mechanism of inheritance
+Kile has some of these features aswell. But these may not remain so for long.
 
 Kilo was written by Salvatore Sanfilippo aka antirez and is released
 under the BSD 2 clause license.
+
+Kile is being written by Pankaj Doharey and continues to use the same BSD license 
+as the original Kilo as Kile is a dereivative work.
